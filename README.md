@@ -13,9 +13,9 @@ node index.js --action="get" --id=5
 # Добавляем контакт
 
 node index.js --action="add" --name="Mango" --email="mango@gmail.com" --phone="322-22-22"
-[a-link]: (https://ibb.co/6t5tLHQ)
+<br> [a-link]: (https://ibb.co/6t5tLHQ)
 
 # Удаляем контакт
 
 node index.js --action="remove" --id=3
-[a-link]: (https://ibb.co/TKXBGZg)
+<br> [a-link]: (https://ibb.co/TKXBGZg)
