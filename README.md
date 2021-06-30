@@ -5,7 +5,7 @@
 node index.js --action list
 
 [a-link]: (https://ibb.co/1r1xrwD)
-
+<!-- 
 # Получаем контакт по id
 
 node index.js --action="get" --id=5
@@ -22,4 +22,4 @@ node index.js --action="add" --name="Mango" --email="mango@gmail.com" --phone="3
 
 node index.js --action="remove" --id=3
 
-[a-link]: (https://ibb.co/TKXBGZg)
+[a-link]: (https://ibb.co/TKXBGZg) -->
