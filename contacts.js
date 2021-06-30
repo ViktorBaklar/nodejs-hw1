@@ -33,7 +33,7 @@ const removeContact = async contactId => {
     if (index === -1) throw new Error(`Error: contact with id ${contacntId} is not found`);
     const newContacts = contacts.filter(contact => contact.id !== contactId);
     await fs.writeFile(contactsPath, JSON.stringify(newContacts));
-    return `Contact (id: ${contactId}) was successfully deleted`;
+    return `Contact (id: ${contactId}) was deleted`;
   } catch (error) {
     return error.message;
   }
