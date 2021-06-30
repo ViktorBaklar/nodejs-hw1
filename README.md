@@ -3,12 +3,12 @@
 # Получаем и выводим весь список контактов в виде таблицы (console.table)
 
 node index.js --action list
-[a-link]: (https://ibb.co/1r1xrwD)
+<br> [a-link]: (https://ibb.co/1r1xrwD)
 
 # Получаем контакт по id
 
 node index.js --action="get" --id=5
-[a-link]: (https://ibb.co/YhqJGVR)
+<br> [a-link]: (https://ibb.co/YhqJGVR)
 
 # Добавляем контакт
 
